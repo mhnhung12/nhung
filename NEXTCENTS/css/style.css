@@ -1,0 +1,89 @@
+* {
+    /* reset css */
+    margin: 0;
+    padding: 0;
+}
+/* KHAI BÁO BIẾN */
+:root {
+    --primary-color: #4caf4f;
+    --secondary-color: #4d4d4d;
+}
+body{
+    font-family: "Inter", sans-serif;
+    
+}
+.btn{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 10px 22px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 130px;
+}
+/* CSS SELECTION */
+.header-right ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    align-items: center;
+}
+.header-right .header-anchor {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.banner{
+    background-color: #f5f7fa;
+    border: #f5f7fa;
+    height: 300px;
+    width: 1,002.34px;
+    padding: 112.02px 130px;
+    display: flex;
+    justify-content:space-between;
+    line-height: 70px;
+}
+.z{
+    color: #4d4d4d;
+}
+.y{
+    color: #4caf4f;
+}
+.banner-left{
+    font-size: 44.55px;
+}
+.n{
+    font-size: 13px;
+}
+.client{
+    display: flex;
+    justify-content:center;
+    line-height: 35px;
+    padding: 27.84px;
+    font-size: 25.06px;
+}
+.g{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.m{
+    display: flex;
+    justify-content: center;
+}
+.client-center ul {
+    gap: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+}
+
+
+
